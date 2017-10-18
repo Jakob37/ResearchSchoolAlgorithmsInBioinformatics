@@ -2,14 +2,41 @@
 
 Questions:
 
-* Describe the RAM model. What assumptions are made and how well does it match
-    an actual computer?
+### Describe the RAM model. What assumptions are made and how well does it match an actual computer?
  
-text
-    
-* Name and describe two other important models of computation
+Similar to 'counter machine', with ability of indirect addressing of registers.
 
+Counter machine: Can hold single non-negative integer and list of
+arithmetic and control instructions for machine to follow.
 
+Under RAM model each simple operation takes 1 step. Loops and subroutines
+are considered many single-step operations. Each memory access takes a single
+step. It takes no notice of cached data.
+
+It simplifies the computer - for instance multiplication takes more time
+than addition on most processors. Memory access differ greatly with caching
+or if on disk. But is still useful tool for understanding behaviour of
+computers.
+
+So - true results can differ a bit, but generally not much.
+
+### Name and describe two other important models of computation
+
+Turing machine: 
+
+* Operates on infinite memory tape with discrete cells.
+* It positions head over cell and scans symbol there. 
+* Then, it writes symbol in the cell. 
+* Then either moves tape 1 step right/left, then proceeds to next instruction or halts.
+
+Finite-state machine:
+
+* Can exist in one of a finite number of states at a time
+* It can change state in response to external inputs - transition
+* Defined by initial states, list of states and conditions for transitions
+
+Limited in power compared to turing machine. Limited in memory through
+number of states.
 
 # Complexity analysis
 
