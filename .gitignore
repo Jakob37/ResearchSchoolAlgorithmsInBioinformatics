@@ -2,3 +2,4 @@
 data/
 numpy_and_pandas/.ipynb_checkpoints
 *.swp
+.ipynb_checkpoints/
