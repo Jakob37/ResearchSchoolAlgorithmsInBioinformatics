@@ -1,4 +1,5 @@
 .idea/
 data/
+batch*
 numpy_and_pandas/.ipynb_checkpoints
 *.swp
