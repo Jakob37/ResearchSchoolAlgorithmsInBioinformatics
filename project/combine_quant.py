@@ -37,12 +37,14 @@ for i in range(1, len(sys.argv)):
 
 all_peps = set()
 for d in sample_dicts.values():
-
     all_peps.update(set(d.keys()))
 
 print(len(all_peps))
 
-# for pep in all_peps:
+
+for pep in all_peps:
+
+
 
 
 
