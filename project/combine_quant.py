@@ -42,25 +42,6 @@ for d in sample_dicts.values():
 print(len(all_peps))
 
 
-for pep in all_peps:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# for pep in all_peps:
 
 
